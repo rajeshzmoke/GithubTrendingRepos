@@ -1,9 +1,10 @@
 # github_trending_repos
 
-A new Flutter project.
+Fetching the last 7 days most starred repositories in Github.
 
 ## Getting Started
 
+A new Flutter project.
 This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
