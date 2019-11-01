@@ -32,7 +32,8 @@ class _TrendingState extends State<Trending> {
       Api.getTrendingRepos().then((onValue) async {
         var apiData = json.encode(onValue);
         await db.addTrendingRepos({"items": apiData});
-
+        await Future.delayed(
+            Duration(seconds: 2)); //delay for the shimmer effect
         setState(() {
           _reposdata = Future.value(onValue);
         });
@@ -43,6 +44,7 @@ class _TrendingState extends State<Trending> {
       });
     } else {
       List dbData = trendsData.map((r) => RepoModel.fromJson(r)).toList();
+      await Future.delayed(Duration(seconds: 2)); //delay for the shimmer effect
       setState(() {
         _reposdata = Future.value(dbData);
       });
