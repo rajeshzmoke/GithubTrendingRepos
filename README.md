@@ -2,6 +2,9 @@
 
 Fetching the last 7 days most starred repositories in Github.
 
+- Flutter version 1.9.1+hotfix.6
+- Dart version 2.5.0
+
 ## Getting Started
 
 A new Flutter project.
