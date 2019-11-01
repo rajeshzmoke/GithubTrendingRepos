@@ -1,9 +1,16 @@
 # github_trending_repos
 
-Fetching the last 7 days most starred repositories in Github.
+- Fetching the last 7 days most starred repositories in Github.
+- Show the result in ListView
+  - Number of stars
+  - name
+  - description
+  - language
+- Store the Data Locally
+- Shimmer effect while data is being fetched
 
-- Flutter version 1.9.1+hotfix.6
-- Dart version 2.5.0
+* Flutter version 1.9.1+hotfix.6
+* Dart version 2.5.0
 
 ## Getting Started
 
